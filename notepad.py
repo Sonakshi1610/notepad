@@ -61,7 +61,9 @@ def paste():
     TextArea.event_generate(("<<Paste>>"))
 
 def about():
-    showinfo("Notepad", "Notepad by sonakshi the great")
+    showinfo("Notepad", "Notepad is a text editor, i.e., an app specialized in editing plain text.\
+It can edit text files (bearing the '.txt' filename extension) and compatible formats, such as batch files, INI files, \
+and log files. It is designed by Sonakshi Gupta")
 
 if __name__ == "__main__":
     root = Tk()
